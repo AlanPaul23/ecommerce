@@ -1,0 +1,187 @@
+.header{
+  background-color: #131921;
+}
+.header-top{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.3rem;
+}
+.header-logo{
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+}
+.header-cart{
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+ 
+}
+.header-cart h1{
+  margin:0;
+}
+.header-signup{
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  padding-left: 5%;
+ 
+}
+.header-login{
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+ padding-left: 10%;
+ 
+}
+
+.logged-in-user{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: #131921;
+  font-size: 12px;
+  margin-top: 0.3%;
+  
+}
+.logged-in-user button{
+ padding: 0 ;
+ background-color: #131921;
+}
+.logged-in-user h1{
+  
+  color: white;
+  background-color: #131921;
+  font-size: 20px;
+  
+  margin-top: 10%;
+  margin-bottom: 0%;
+}
+
+nav {
+    background-color: #232f3e;
+    color: #fff;
+    padding: 0.2rem;
+  }
+  
+  .nav-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .nav-logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .nav-menu li {
+    margin-left: 1rem;
+  }
+  
+  .nav-menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+.logout-button {
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 10px;
+  background-color: white;
+}
+
+.logout-button h1 {
+  font-size: 16px;
+
+}
+
+.cart-count {
+  background-color: #ff6347;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 4px 8px;
+  margin-left: 45px;
+}
+
+.header-checkout {
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  padding-left: 5%;
+}
+
+.user-info{
+  padding-top: 1%;
+  cursor: pointer;
+  display: flex;
+}
+
+.dropdown-menu button{
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  padding: 3px;
+}
+
+.img{
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+}
+
+.accounts-dropdown {
+  position: relative;
+}
+
+.accounts-dropdown-toggle {
+  cursor: pointer;
+}
+.accounts-dropdown-toggle h1{
+color: white;
+margin: 0;
+font-size: 28px;
+margin-top: 10%;
+}
+
+.accounts-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1;
+}
+
+.accounts-dropdown-menu a {
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.accounts-dropdown-menu a:hover {
+  background-color: #f5f5f5;
+}
+
+.img1{
+  position: absolute;
+  top: 40%;
+  left: 100%;
+  width: 22px;
+}
