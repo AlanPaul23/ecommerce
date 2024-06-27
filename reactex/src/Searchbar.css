@@ -1,0 +1,16 @@
+.inputsearch{
+    width: 40vw;
+}
+
+.inputbutton{
+    padding-left: 2%;
+}
+
+.searchbar{
+    padding-top: 0.7%;
+}
+
+.searchbar button{
+    
+    cursor: pointer;
+}
